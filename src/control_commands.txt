@@ -1,0 +1,15 @@
+#if 0
+This file contains definitions of subcommands to the USB control command.
+
+The format is as follows:
+
+	D( command name, cmd1, cmd2, cmd3, reply_length )
+
+#endif
+
+D(control_cmd_init, 0x00, 0x19, 0x1c)
+D(control_cmd_exit, 0x01, 0x18, 0x1c)
+D(control_cmd_release_shutter, 0x04, 0x18, 0x1c)
+D(control_cmd_get_release_params, 0x0a, 0x18, 0x4c)
+D(control_cmd_set_release_params, 0x07, 0x3c, 0x1c)
+D(control_cmd_set_transfer_mode, 0x09, 0x1c, 0x1c)

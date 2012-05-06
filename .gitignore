@@ -1,3 +1,15 @@
+# Atmel software framework.
+asf-3.0.1
+
+# Vim swap files.
+.*.sw*
+
+# Compiled artifacts
+*.o
+*.elf
+*.bin
+
+
 *.py[co]
 
 # Packages
